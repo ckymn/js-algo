@@ -1,7 +1,7 @@
 // js-sort
 
 const sort = (a) => {
-  let swap;
+   let swap;
   let n = a.length-1 ;
 
   do {
@@ -15,7 +15,6 @@ const sort = (a) => {
       }
     }
     n--;
-    console.log(swap);
 } while (swap)
   return a;
 };
